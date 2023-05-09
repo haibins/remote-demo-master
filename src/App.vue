@@ -93,7 +93,7 @@ const cards = shallowRef([
 <style scoped>
   .item{
     width: 400px;
-    min-height: 300px;
+    height: 400px;
     border: 1px solid #cdcdcd;
   }
 </style>
