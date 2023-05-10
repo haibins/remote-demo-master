@@ -11,6 +11,7 @@ const cards = shallowRef([
     config: {
       version: "1.0.2",
       libName: "HelloWorld",
+      package: "xcard-remote-vue-comps",
     },
 
     layout: {
@@ -26,6 +27,7 @@ const cards = shallowRef([
     config: {
       version: "1.0.2",
       libName: "MyButton",
+      package: "xcard-remote-vue-comps",
     },
     layout: {
       x: 0,
@@ -41,6 +43,7 @@ const cards = shallowRef([
       // host: 'http://127.0.0.1:5501/',
       version: "1.0.2",
       libName: "RemoteLine",
+      package: "xcard-remote-vue-comps",
     },
     layout: {
       x: 0,
@@ -68,6 +71,7 @@ const cards = shallowRef([
     id: "4",
     componentType: "remote-chart",
     config: {
+      // cusHost:'http://localhost:7006',
       version: "1.0.6",
       libName: "MyButton",
       package: "remote-vue-project",
@@ -91,9 +95,9 @@ const cards = shallowRef([
 </template>
 
 <style scoped>
-  .item{
-    width: 400px;
-    height: 400px;
-    border: 1px solid #cdcdcd;
-  }
+.item {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #cdcdcd;
+}
 </style>
